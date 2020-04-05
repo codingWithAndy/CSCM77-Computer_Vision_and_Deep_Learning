@@ -317,11 +317,11 @@ def update_scene(position, spheres_collected, subsample=1):
     sphere_positions = sphere_positions[spheres_to_render, :]
         
     # Load pointcloud data, positions and colors, from numpy files
-    #global_cloud = {}
-    #global_cloud['Positions'] = np.load('cloudPositions.npy')[0::subsample, :]
-    #global_cloud['Colors'] = np.load('cloudColors.npy')[0::subsample, :]
-    global_cloud['Positions'] = global_cloud['Positions'][0::subsample, :]
-    global_cloud['Colors'] = global_cloud['Colors'][0::subsample, :]
+    global_cloud = {}
+    global_cloud['Positions'] = np.load('cloudPositions.npy')[0::subsample, :]
+    global_cloud['Colors'] = np.load('cloudColors.npy')[0::subsample, :]
+    #global_cloud['Positions'] = global_cloud['Positions'][0::subsample, :]
+    #global_cloud['Colors'] = global_cloud['Colors'][0::subsample, :]
 
     # Create remaining spheres and place them into the pointcloud
     generic_sphere = sphere(200)
