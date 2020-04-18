@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{tensorflow2015-whitepaper}
+{\sc Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C.,
+  Corrado, G.~S., Davis, A., Dean, J., Devin, M., Ghemawat, S., Goodfellow, I.,
+  Harp, A., Irving, G., Isard, M., Jia, Y., Jozefowicz, R., Kaiser, L., Kudlur,
+  M., Levenberg, J., Man\'{e}, D., Monga, R., Moore, S., Murray, D., Olah, C.,
+  Schuster, M., Shlens, J., Steiner, B., Sutskever, I., Talwar, K., Tucker, P.,
+  Vanhoucke, V., Vasudevan, V., Vi\'{e}gas, F., Vinyals, O., Warden, P.,
+  Wattenberg, M., Wicke, M., Yu, Y., and Zheng, X.}
+\newblock {TensorFlow}: Large-scale machine learning on heterogeneous systems,
+  2015.
+\newblock Software available from tensorflow.org.
+
+\bibitem{hunter2007matplotlib}
+{\sc Hunter, J.~D.}
+\newblock Matplotlib: A 2d graphics environment.
+\newblock {\em Computing in science \& engineering 9}, 3 (2007), 90--95.
+
+\bibitem{mckinney-proc-scipy-2010}
+{\sc McKinney, W.}
+\newblock Data structures for statistical computing in python.
+\newblock In {\em Proceedings of the 9th Python in Science Conference\/}
+  (2010), S.~van~der Walt and J.~Millman, Eds., pp.~51 -- 56.
+
+\bibitem{Python}
+{\sc {Python Core Team}}.
+\newblock {\em Python: A dynamic, open source programming language}.
+\newblock Python Software Foundation, Vienna, Austria, 2020.
+
+\end{thebibliography}

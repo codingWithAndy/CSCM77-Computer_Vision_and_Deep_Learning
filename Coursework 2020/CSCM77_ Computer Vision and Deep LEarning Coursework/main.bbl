@@ -1,0 +1,65 @@
+\begin{thebibliography}{10}
+
+\bibitem{agrawal1993mining}
+{\sc Agrawal, R., Imieli{\'n}ski, T., and Swami, A.}
+\newblock Mining association rules between sets of items in large databases.
+\newblock In {\em Proceedings of the 1993 ACM SIGMOD international conference
+  on Management of data\/} (1993), pp.~207--216.
+
+\bibitem{agrawal1994fast}
+{\sc Agrawal, R., Srikant, R., et~al.}
+\newblock Fast algorithms for mining association rules.
+\newblock In {\em Proc. 20th int. conf. very large data bases, VLDB\/} (1994),
+  vol.~1215, pp.~487--499.
+
+\bibitem{brin1997dynamic}
+{\sc Brin, S., Motwani, R., Ullman, J.~D., and Tsur, S.}
+\newblock Dynamic itemset counting and implication rules for market basket
+  data.
+\newblock In {\em Proceedings of the 1997 ACM SIGMOD international conference
+  on Management of data\/} (1997), pp.~255--264.
+
+\bibitem{jingjingslides}
+{\sc Deng, J.}
+\newblock 04. frequent patterns, association rule, correlation.
+\newblock In {\em Swansea Univerity Lecture Slides\/} (2020).
+
+\bibitem{geron2019hands}
+{\sc G{\'e}ron, A.}
+\newblock {\em Hands-On Machine Learning with Scikit-Learn, Keras, and
+  TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems}.
+\newblock O'Reilly Media, 2019.
+
+\bibitem{han2011data}
+{\sc Han, J., Pei, J., and Kamber, M.}
+\newblock {\em Data mining: concepts and techniques}.
+\newblock Elsevier, 2011.
+
+\bibitem{hunter2007matplotlib}
+{\sc Hunter, J.~D.}
+\newblock Matplotlib: A 2d graphics environment.
+\newblock {\em Computing in science \& engineering 9}, 3 (2007), 90--95.
+
+\bibitem{mckinney-proc-scipy-2010}
+{\sc McKinney, W.}
+\newblock Data structures for statistical computing in python.
+\newblock In {\em Proceedings of the 9th Python in Science Conference\/}
+  (2010), S.~van~der Walt and J.~Millman, Eds., pp.~51 -- 56.
+
+\bibitem{Python}
+{\sc {Python Core Team}}.
+\newblock {\em Python: A dynamic, open source programming language}.
+\newblock Python Software Foundation, Vienna, Austria, 2020.
+
+\bibitem{raschkas_2018_mlxtend}
+{\sc Raschka, S.}
+\newblock Mlxtend: Providing machine learning and data science utilities and
+  extensions to python’s scientific computing stack.
+\newblock {\em The Journal of Open Source Software 3}, 24 (Apr. 2018).
+
+\bibitem{tan2016introduction}
+{\sc Tan, P.-N., Steinbach, M., and Kumar, V.}
+\newblock {\em Introduction to data mining}.
+\newblock Pearson Education India, 2016.
+
+\end{thebibliography}
