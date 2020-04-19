@@ -17,12 +17,12 @@
 \parskip .8ex
 
 %\setlength{\droptitle}{-10em}
-\setlength{\topmargin}{-0.7in}
+\setlength{\topmargin}{-1in}
 
 \usepackage{fancyheadings}
 \usepackage{ifthen}
 \usepackage{titlesec}
-\setlength{\textheight}{9.6in}
+\setlength{\textheight}{10.3in}
 
 %Begining of the document
 \begin{document}
@@ -39,14 +39,14 @@
 
 \section{Introduction}
 
-\small We have presented to us, a challenge to navigate an office space which contains red dots. The office space is in a U shape, requiring our solution to take an image from a starting location, decided where within the image the algorithm believes is where the image is, move to that location and then collect the dot. Our algorithm, when the algorithm reaches the end of the corridor, needs to search the room to find the next dot manually by changing its angle. We will achieve this by using training data that has been provided to us, to train a Convolutional Neural Network. As well as a sliding window to extract the patches from the game worlds image cloud, to figure out where the algorithm believes the most likely place the dot is placed, then moving to that location.
+\small 
+We have presented to us, a challenge to navigate an office space which contains red dots. The office space is in a U shape, requiring our solution to take an image from a starting location, decided where within the image the algorithm believes is where the image is, move to that location and then collect the dot. Our algorithm, when the algorithm reaches the end of the corridor, needs to search the room to find the next dot manually by changing its angle. We will achieve this by using training data that has been provided to us to train a Convolutional Neural Network (CNN). As well as a sliding window (SW) to extract the patches from the game worlds image cloud, to figure out where the algorithm believes the most likely place the dot is placed, then moving to that location.
 
 [Explain why a CNN is being used, maybe over a ANN.]
 
-We aimed to find out if changing the parameters to the CNN mask, would making the size of the mask provide speed benefits that would outweigh the decrease in the model accuracy. We will also be checking if the increase in steps for the sliding window increased performance but does not affect performance in completing its task of detecting the potential location of the red dot in the image.
+We aimed to find out if changing the parameters to the CNN mask, would making the size of the mask provide speed benefits that would outweigh the decrease in the model accuracy. We will also be checking if the increase in steps for the SW increased performance but does not affect performance in completing its task of detecting the potential location of the red dot in the image.
 
-The initial results were:
-Increasing the results were: CNN 3x3/6x6   SW 2/5/10
+The results found that the 3x3 filter with a two-step SW was the quickest in all of the experiments. Showing that the trade-off between increasing the mask size and SW step size did not provide a justifiable trade-off, as not only was accuracy reduced with a 6x6 filter, the overall completion time of the program completing was longer. The quickest being 3x3 filter with 2 step SW taking 637.75 seconds and the longest being 6x6 filter with a two-step SW taking 1486.03 seconds.  
 
 \section{Methodology}
 
@@ -105,7 +105,7 @@ The location of the patch with the highest percentage value is determined, along
 \begin{center}
 	\begin{tabular}{ |c|p{1.5cm}|p{2.25cm}|p{2.25cm}|p{2.25cm}| } 
 		\hline
-		 & CCN Taining Time & 2 step Sliding Window & 5 Step Sliding Window & 10 Step Sliding Window \\
+		 & CCN Taining Time & 2 Step Sliding Window & 5 Step Sliding Window & 10 Step Sliding Window \\
 		\hline
 		\multirow{3}{4em}{3x3 Filter} & 6.91 sec & 708.19 sec & 716.51 sec & 1060.81 sec \\ 
 		
@@ -122,10 +122,20 @@ The location of the patch with the highest percentage value is determined, along
 We can see from the results that the CNN that had a filter of 3x3 and trained quicker than the CNN with a filter of 6x6, in all three trials. All the trials found all of the red dots, but the quickest was the 3x3 2 step sliding window's third trail, with a time of 637.75 seconds while the 6x6 2 step window was the slowest at 1486.03 seconds. All of the 3x3 with a 2 step window was generally the quickest from their runs. However, for the 6x6 filter with a 5 step window, these across the board were quicker than the other 6x6 results, but still not as fast as the 3x3 step. On average, we found the 6x6 filter took about 3 seconds longer to train the model.
 
 \section{Discussion}
-note: maybe insteead of finding the highest \% patch, using the predicted label might have worked as well.
-Increasing dense layers node number-> will incrase training time but should make predictions better, therefore potentially speeding upu the overall game.
+%note: maybe insteead of finding the highest \% patch, using the predicted label might have worked as well.
+%Increasing dense layers node number-> will incrase training time but should make predictions better, therefore potentially speeding upu the overall game.
+
+We can see from the results that the most effective method was to use a 3x3 filter within the CNN and sliding window that is stepping a step of 2. Even though the sliding window stepping two steps was the slowest way, taking 0.01 seconds while the others took 0.00 seconds, the overall experiments were being completed the quickest. We believe this is due to the CNN being trained to higher accuracy, and with the sliding window moving only two steps, was able to break the image into more patches allowing more chance of the patches matching up. Therefore, even though the sliding window took longer, with the more patches to be able to predict with, it meant that the program was less likely to make wrong predictions and having to keep searching around the room. It was, therefore, making the entire process a lot quicker. As there were occasions, especially with a 6x6 filter and a 5 or 10 step sliding window that the program was going around in a couple of circles searching for the ball. Sometimes after taking more than two full rotations till it found the dot.
+
+The program was able to complete all the required task of collecting all the dots. However, there were some results that we did not initially expect. When using the 6x6 filter, we expected that the accuracy of the predictions would be lower than the 3x3, but did not expect the overall time to take longer than the 6x6. We acknowledge that more calculations would be done, but by covering more of the overall image, we expected it to be of a similar time or possibly quicker. We believe more exploring into these parameters is needed by the author.
+
+We can see that in every run, for each setting, the program was able to find all eleven dots within the map. However, we feel that there are other ways that this can be achieved, which could potentially improve the complexity [whats the complexity term called?] of the algorithm and speed up the overall process. 
 
 \section{Conclusion}
+
+Overall the CNN with the 3x3 filter and using a 2 step SW overall performed the best, in terms of being the fastest to train the CNN as well as being the quickest to complete collecting all the dots and therefore showing that the trade-off of steps and accuracy is not worth pursuing within this case. However, the 6x6 filter worked best with a 5 step SW. We believe that more exploring into the effect the CNN's dense layers and the parameters need to be experimented on, to see if increase the dense layers will see a benefit in the increase filter size and over performance time, compared to the 3x3. Interestingly when the 6x6 filter increased its SW steps, the program finished quicker than when it did with a 2 step SW. 
+
+We believe more research will need to be done in the trade-off between training time and the step of SW to see if, by increase layers and density of CNN, while would take the training time longer, but would it speed up the overall process. Especially when looking at the bigger filter and the higher SW steps, to see what the correlation between these two factors are.
 
 %\medskip
 %\newpage

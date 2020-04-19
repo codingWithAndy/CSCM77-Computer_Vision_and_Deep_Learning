@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  16 APR 2020 21:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  19 APR 2020 17:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -261,8 +261,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--108
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 108--108
-[]|\OT1/cmr/m/n/9 2 step Slid-ing
+Underfull \hbox (badness 1430) in paragraph at lines 108--108
+[]|\OT1/cmr/m/n/9 2 Step Slid-ing
  []
 
 
@@ -270,7 +270,8 @@ Underfull \hbox (badness 1430) in paragraph at lines 108--108
 []|\OT1/cmr/m/n/9 5 Step Slid-ing
  []
 
-[2] (./445348-graya-CSCM77-CVDL.bbl) [3] (./445348-graya-CSCM77-CVDL.aux) ) 
+[2] (./445348-graya-CSCM77-CVDL.bbl [3]) [4] (./445348-graya-CSCM77-CVDL.aux) )
+ 
 Here is how much of TeX's memory you used:
  2838 strings out of 492616
  40117 string characters out of 6129480
@@ -278,19 +279,18 @@ Here is how much of TeX's memory you used:
  6703 multiletter control sequences out of 15000+600000
  9760 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,45p,971b,183s stack positions out of 5000i,500n,10000p,200000b,80000s
-</us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on 445348-graya-CSCM77-CVDL.pdf (4 pages, 106924 bytes).
+ 41i,8n,45p,1100b,183s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on 445348-graya-CSCM77-CVDL.pdf (5 pages, 109520 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
