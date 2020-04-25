@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{tensorflow2015-whitepaper}
 {\sc Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C.,
@@ -17,6 +17,33 @@
 \newblock Matplotlib: A 2d graphics environment.
 \newblock {\em Computing in science \& engineering 9}, 3 (2007), 90--95.
 
+\bibitem{krizhevsky2012imagenet}
+{\sc Krizhevsky, A., Sutskever, I., and Hinton, G.~E.}
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in neural information processing systems\/} (2012),
+  pp.~1097--1105.
+
+\bibitem{lecun2015deep}
+{\sc LeCun, Y., Bengio, Y., and Hinton, G.}
+\newblock Deep learning.
+\newblock {\em nature 521}, 7553 (2015), 436--444.
+
+\bibitem{lecun1989backpropagation}
+{\sc LeCun, Y., Boser, B., Denker, J.~S., Henderson, D., Howard, R.~E.,
+  Hubbard, W., and Jackel, L.~D.}
+\newblock Backpropagation applied to handwritten zip code recognition.
+\newblock {\em Neural computation 1}, 4 (1989), 541--551.
+
+\bibitem{lecun1998gradient}
+{\sc LeCun, Y., Bottou, L., Bengio, Y., and Haffner, P.}
+\newblock Gradient-based learning applied to document recognition.
+\newblock {\em Proceedings of the IEEE 86}, 11 (1998), 2278--2324.
+
+\bibitem{lecun1989generalization}
+{\sc LeCun, Y., et~al.}
+\newblock Generalization and network design strategies.
+\newblock {\em Connectionism in perspective 19\/} (1989), 143--155.
+
 \bibitem{mckinney-proc-scipy-2010}
 {\sc McKinney, W.}
 \newblock Data structures for statistical computing in python.
@@ -27,5 +54,11 @@
 {\sc {Python Core Team}}.
 \newblock {\em Python: A dynamic, open source programming language}.
 \newblock Python Software Foundation, Vienna, Austria, 2020.
+
+\bibitem{rumelhart1985learning}
+{\sc Rumelhart, D.~E., Hinton, G.~E., and Williams, R.~J.}
+\newblock Learning internal representations by error propagation.
+\newblock Tech. rep., California Univ San Diego La Jolla Inst for Cognitive
+  Science, 1985.
 
 \end{thebibliography}
