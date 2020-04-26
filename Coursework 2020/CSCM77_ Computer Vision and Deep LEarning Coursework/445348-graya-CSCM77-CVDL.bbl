@@ -12,6 +12,20 @@
   2015.
 \newblock Software available from tensorflow.org.
 
+\bibitem{opencv_library}
+{\sc Bradski, G.}
+\newblock {The OpenCV Library}.
+\newblock {\em Dr. Dobb's Journal of Software Tools\/} (2000).
+
+\bibitem{sklearn_api}
+{\sc Buitinck, L., Louppe, G., Blondel, M., Pedregosa, F., Mueller, A., Grisel,
+  O., Niculae, V., Prettenhofer, P., Gramfort, A., Grobler, J., Layton, R.,
+  VanderPlas, J., Joly, A., Holt, B., and Varoquaux, G.}
+\newblock {API} design for machine learning software: experiences from the
+  scikit-learn project.
+\newblock In {\em ECML PKDD Workshop: Languages for Data Mining and Machine
+  Learning\/} (2013), pp.~108--122.
+
 \bibitem{hunter2007matplotlib}
 {\sc Hunter, J.~D.}
 \newblock Matplotlib: A 2d graphics environment.
@@ -44,12 +58,6 @@
 \newblock Generalization and network design strategies.
 \newblock {\em Connectionism in perspective 19\/} (1989), 143--155.
 
-\bibitem{mckinney-proc-scipy-2010}
-{\sc McKinney, W.}
-\newblock Data structures for statistical computing in python.
-\newblock In {\em Proceedings of the 9th Python in Science Conference\/}
-  (2010), S.~van~der Walt and J.~Millman, Eds., pp.~51 -- 56.
-
 \bibitem{Python}
 {\sc {Python Core Team}}.
 \newblock {\em Python: A dynamic, open source programming language}.
@@ -60,5 +68,16 @@
 \newblock Learning internal representations by error propagation.
 \newblock Tech. rep., California Univ San Diego La Jolla Inst for Cognitive
   Science, 1985.
+
+\bibitem{van2014scikit}
+{\sc Van~der Walt, S., Sch{\"o}nberger, J.~L., Nunez-Iglesias, J., Boulogne,
+  F., Warner, J.~D., Yager, N., Gouillart, E., and Yu, T.}
+\newblock scikit-image: image processing in python.
+\newblock {\em PeerJ 2\/} (2014), e453.
+
+\bibitem{walt2011numpy}
+{\sc Walt, S. v.~d., Colbert, S.~C., and Varoquaux, G.}
+\newblock The numpy array: a structure for efficient numerical computation.
+\newblock {\em Computing in Science \& Engineering 13}, 2 (2011), 22--30.
 
 \end{thebibliography}

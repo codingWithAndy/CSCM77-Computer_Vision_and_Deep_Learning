@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  25 APR 2020 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.22)  26 APR 2020 10:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -250,46 +250,47 @@ Package pdftex.def Info: swansea.png  used on input line 46.
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./swans
-ea.png>] [1] [2]
-<confusion_matrix.png, id=20, 784.9325pt x 304.13625pt>
+ea.png>] [1]
+<confusion_matrix.png, id=16, 784.9325pt x 304.13625pt>
 File: confusion_matrix.png Graphic file (type png)
 <use confusion_matrix.png>
-Package pdftex.def Info: confusion_matrix.png  used on input line 122.
+Package pdftex.def Info: confusion_matrix.png  used on input line 119.
 (pdftex.def)             Requested size: 227.62204pt x 88.19261pt.
+ [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 134.
+(Font)              <9> on input line 131.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 134.
+(Font)              <5> on input line 131.
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\OT1/cmr/m/n/9 CCN
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 \OT1/cmr/m/n/9 Tain-ing
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 136--136
+Underfull \hbox (badness 1430) in paragraph at lines 134--134
 []|\OT1/cmr/m/n/9 2 Step Slid-ing
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 136--136
+Underfull \hbox (badness 1430) in paragraph at lines 134--134
 []|\OT1/cmr/m/n/9 5 Step Slid-ing
  []
 
 [3 <./confusion_matrix.png>] (./445348-graya-CSCM77-CVDL.bbl) [4]
 (./445348-graya-CSCM77-CVDL.aux) ) 
 Here is how much of TeX's memory you used:
- 2856 strings out of 492616
- 40464 string characters out of 6129480
- 120071 words of memory out of 5000000
- 6718 multiletter control sequences out of 15000+600000
+ 2859 strings out of 492616
+ 40497 string characters out of 6129480
+ 121086 words of memory out of 5000000
+ 6721 multiletter control sequences out of 15000+600000
  9767 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,45p,1041b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,8n,45p,1327b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
@@ -299,7 +300,7 @@ ublic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti8.pfb>
-Output written on 445348-graya-CSCM77-CVDL.pdf (5 pages, 364394 bytes).
+Output written on 445348-graya-CSCM77-CVDL.pdf (5 pages, 364380 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
